@@ -28,7 +28,7 @@ app.use(cors());
 
 // root path
 app.get('/', (req, res) => {
-    res.json({apiStatus: "working"});
+    res.json("It is working...");
 });
 
 // singin
